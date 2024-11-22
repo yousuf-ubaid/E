@@ -1,0 +1,15 @@
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
+
+if (!function_exists('all_modules_array')) {
+    function all_modules_array()
+    {
+        $CI =& get_instance();
+        if (hstGeras == 1) {
+            $data_arr = array('Dashboard|fa fa-dashboard |https://drive.google.com/file/d/1IXKUgEbrZ9wNJ6FF1_rGqk8rXXC8VF7X/view', 'Sales & Marketing|fa fa-suitcase|https://drive.google.com/file/d/1rJXfZD69htfJgG2GSV5Vg5E67Q3PPLqi/view', 'Procurement|fa fa-cart-plus|https://drive.google.com/file/d/1JD4hRwlJUtFXABHva0yCWhiflBijA_YJ/view', 'Inventory|fa fa-cubes|https://drive.google.com/file/d/1Wd6l_OpcPLYZ8WTqiL2dVb89eHcFvngj/view', 'Accounts Payable|fa fa-money|https://drive.google.com/file/d/1B-HKIqOne5JkYfnE99urvzdR7RSVUN9h/view', 'Accounts Receivable|glyphicon glyphicon-credit-card|https://drive.google.com/file/d/1uLL0wFrNAOAUu3ovBOoy_NYPjDzbEOMQ/view', 'Finance|fa fa-book|https://drive.google.com/file/d/1-bpL3iQLsTDXPOswUkU3kc_Mw8mBFtet/view', 'HRMS|fa fa-users|https://drive.google.com/file/d/10uT0kJhWeh0fTGuXJ4HEheEDwy_3dttU/view', 'Treasury|fa fa-university|https://drive.google.com/file/d/1MxT2CbGaBCj1gQQhfNdolzyxm9OZuI0I/view', 'TAX|fa fa-calculator|https://drive.google.com/file/d/1U7GUl1uKGb_dYmXtzlH9VEboow0XPUSt/view', 'POS Restaurant|fa fa-desktop|https://drive.google.com/file/d/1vTD6aqdlcC1zzgvBom9NMa7k_6pwiWLL/view', 'POS General|fa fa-desktop|https://drive.google.com/file/d/14qa2_WyhAj_lfxDO9ifhngoyzTTnGAOV/view','IOU|fa fa-book|https://drive.google.com/file/d/1SdZ5jCxm_0ACNw4d1dTzK_uttTH0tPqj/view');
+        } else {
+            $data_arr = array('Dashboard|dashboard.png |', 'Sales & Marketing|sales_marketing.png|https://drive.google.com/file/d/1hfrfW7y2GmScKHiP6l5ixKKjyWIeIVWz/view', 'Inventory|inventory.png|https://drive.google.com/file/d/1VDez9QHeKjpnB-F8w1F20GAH_hOEuleU/view', 'Accounts Payable|payable.png|https://drive.google.com/file/d/1vjrHs28kQ4tOUsuVJbfeZOQS_NHwfA-4/view?usp=drive_link', 'Accounts Receivable|acc_receivable.png|https://drive.google.com/file/d/1LOp1DnEIMKcAV9Dx72BE-I9gPjafH3N8/view', 'HRMS|hrms.png|https://drive.google.com/file/d/1OyX5XEIkxfYFwePjDKj2mK8bmZ9kDG9S/view', 'Treasury|treasury.png|https://drive.google.com/file/d/1k2uNpVeDb-YO2rzotqYN78tA8v-BOeAV/view', 'TAX|tax.png|https://drive.google.com/file/d/1I8KE5uiZixzDXZtRQ7FvJn_uGi3EG2oO/view?usp=drive_link', 'POS General|pos_general.png|https://drive.google.com/file/d/1t5dE7fXQt-PQwSwfK8GtVEZt0yq2H_UF/view', 'IOU|iou.png|https://drive.google.com/file/d/1MQIN32ZAzvm1mdWU6QcsMyH-i2D61YXG/view', 'Accounting|accounting.png|https://drive.google.com/file/d/1H6lrsBN0D2kTefOg2DAW72w-zZYqBPPX/view', 'Purchasing|purchasing.png|https://drive.google.com/file/d/18Z4XeSRXYLW_FGo-h5i-BN6Re1dhc3rU/view','Manufacturing|manufacturing.png|https://drive.google.com/file/d/17Si9OvpP_FAqlsb1n9iZYR_uCx9hfc98/view','CRM|crm.png|https://drive.google.com/file/d/1ePSMlw_LJDyh1qDdkt9BbXIOqWClEKGK/view?usp=drive_link');
+        }
+
+        return $data_arr;
+    }
+}

@@ -1,0 +1,255 @@
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url('fonts/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2') format('woff2');
+}
+
+td, th {
+    padding: 5px !important;
+}
+.table-header-info td{
+    padding: 1px 5px !important;
+}
+.table-bottom-info td{
+    padding: 1px 5px !important;
+}
+.tbl{
+    padding-left: 6px !important;
+    font-size: 12px;
+}
+table .total {
+    border-top: 1px double #000 !important;
+    border-bottom: 3px double #000 !important;
+    font-weight: bold;
+    font-size: 9px !important;
+}
+
+table .sub_total {
+    /*border-top: 1px solid rgba(0, 0, 0, 0.3);*/
+    border-top: 1px double #000;
+    border-bottom: 1px double #000;
+    font-weight: bold !important;
+    font-size: 9px !important;
+}
+
+table .theadtr {
+    font-size: 11px !important;
+    background: #ebebeb;
+}
+
+table .t-foot {
+    font-size: 11px !important;
+    font-weight: bold;
+}
+
+tbody td {
+    font-size: 10px !important;
+}
+
+hr {
+    margin-bottom: 2px !important;
+    margin-top: 3px !important;
+}
+
+td .td {
+    font-size: 12px !important;
+}
+
+.paySheet_TD {
+    font-size: 14px !important;
+    font-weight: bolder !important;;
+}
+
+.paySheet_TD {
+    font-size: 13px !important;
+    font-weight: bolder !important;;
+}
+
+.paySheetDet_TD {
+    border-bottom: none !important;
+}
+
+.paySlipTot {
+    text-align: right;
+    background: #00a7d0;
+}
+
+.t-foot-none-print {
+    border: 3px solid #1b6d85 !important;
+}
+
+/*Asset register css*/
+.assetRegisterTable td:not(:first-child) {
+    width: 100px !important;
+}
+
+.assetRegisterTable th:not(:first-child) {
+    width: 100px !important;
+}
+
+.assetRegisterTable tbody td:not(:first-child):not(:last-child):hover {
+    background-color: #DEDEDE;
+}
+/* --Asset register css--*/
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f9f9f9
+}
+
+#incomeTexDeduction td {
+    font-size: 10px;
+}
+
+.income-text-header{
+    font-size: 11px !important;
+}
+
+.envoy-payslip-tbl th{
+    font-size: 12px !important;
+}
+
+/*Start of FM print*/
+#fm-rpt-table .sub2{
+    font-size: 11px !important;
+    line-height: 5px;
+}
+
+#fm-rpt-table .sub1{
+    font-size: 11px !important;
+    line-height: 5px;
+    font-weight: bold;
+}
+
+.glDescription { padding-left: 50px }
+
+.td-main-header{
+    color: #000080;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 10px;
+    font-size: 12px;
+}
+
+.sub_total_rpt {
+    border-top: 1px solid #D2D6DE !important;
+    border-bottom: 1px solid #D2D6DE !important;
+    font-weight: bold;
+    font-size: 11px !important;
+    height: 10px;
+}
+
+.total_black_rpt {
+    border-top: 2px double #000000 !important;
+    border-bottom: 3px double #000000 !important;
+    font-weight: bold;
+    font-size: 11px !important;
+    background-color: #DBDBDB;
+}
+
+td .description_td_rpt{
+    width: 80% !important;
+}
+
+.amount_td_rpt{
+    width: 20% !important;
+}
+/*End of FM print*/
+
+#salary-declaration-print-tb{
+    background-color: #EAF2FA;
+}
+
+#SD-header-print-tb td{
+    background-color: #EAF2FA;
+    font-size: 11px;
+}
+#SD-header-print-tb td.bgWhite{
+    background-color: #ffffff !important;
+    font-weight: bold;
+}
+
+
+.right-align{ text-align: right; }
+
+.total-sd {
+    border-top: 1px double #151313 !important;
+    border-bottom: 3px double #101010 !important;
+    font-weight: bold;
+    font-size: 12px !important;
+}
+
+.drill-table th{
+    background-color: #dedede;
+    border-color: #c9cccf !important;
+    font-size: 11px;
+}
+
+.drill-table th{
+    background-color: #dedede;
+    border-color: #c9cccf !important;
+    font-size: 11px;
+}
+
+.drill-table td{
+    font-size: 11px;
+}
+
+.dot_matrix_font{
+    font-family:Segoe,Roboto,Helvetica,arial,sans-serif !important;
+    color: black;
+}
+
+.edit-tbl {
+    border-collapse: collapse;
+}
+.edit-tbl td, .edit-tbl th {
+    border: 1px solid rgb(49, 45, 45);
+    padding: 8px;
+}  
+
+
+/*****payment voucher css******/
+.tb-responsive-main .layer-1{
+    width: 50%;
+}
+.tb-responsive-main img.main-logo{
+    max-height: 100px;
+    max-width: 300px;
+}
+.res-height{
+    height: 50px;
+}
+
+@media (max-width: 600px) {
+    .tb-responsive-main .layer-1{
+        width: 100%;
+        display:block;
+        box-sizing:border-box;
+        clear:both;
+    }
+    .tb-responsive-main img.main-logo{
+        max-height: 100px;
+        max-width: 300px;
+        width: 225px;
+        padding-top: 10px;
+    }
+    .res-height{
+        height: 0px;
+    }
+}
+/*****payment voucher css end******/
+
+
+.table-style-three tr td{
+    font-size: 12px;
+}
+
+/*******end css********************/
+
+
+.table-border, .table-border th, .table-border td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+  }

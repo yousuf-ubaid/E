@@ -1,0 +1,22 @@
+version: '3.9'
+services:
+  qn_erp_sme:
+    restart: always
+    image: qn_erp:$GITHUB_REF_NAME-$GITHUB_SHA
+    container_name: qn_erp_sme
+    ports:
+      - "8040:80"
+    environment:
+      - BASE_URL=${BASE_URL}
+      - DB_HOST=${DB_HOST}
+      - DB_USERNAME=${DB_USERNAME}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_NAME=${DB_NAME}
+      - EMPTY_DB_NAME=${EMPTY_DB_NAME}
+      - BUCKET_NAME=${BUCKET_NAME}
+      - BUCKET_REGION=${BUCKET_REGION}
+      - BUCKET_ACCESS_KEY=${BUCKET_ACCESS_KEY}
+      - BUCKET_SECRET_KEY=${BUCKET_SECRET_KEY}
+    networks:
+      - default
+

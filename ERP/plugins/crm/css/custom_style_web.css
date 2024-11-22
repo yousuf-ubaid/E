@@ -1,0 +1,472 @@
+
+.past-info {
+    background: #fff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 0 0 8px 10px;
+    margin-left: 2px
+}
+
+.past-info #toolbar, .past-info .toolbar {
+    background: #f8f8f8;
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    border: #dcdcdc solid 1px;
+    padding: 5px 15px 12px 10px;
+    height: 20px
+}
+
+.past-info #toolbar .toolbar-title, .past-info .toolbar .toolbar-title {
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    float: left;
+    margin-top: -4px;
+}
+
+.past-info #toolbar .toolbar-about, .past-info .toolbar .toolbar-about {
+    font-size: 13px;
+    float: right;
+    padding-top: 3px;
+    cursor: pointer
+}
+
+.past-info h1 {
+    text-align: center;
+    margin: 0 0 10px -22px;
+    background: #eee;
+    font-size: 12px;
+    line-height: 25px;
+    color: #605f79;
+    border-radius: 1px 1px 0 0;
+    -webkit-border-radius: 1px 1px 0 0;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #fbfbfb;
+    border-bottom: #cdcdcd solid 1px
+}
+
+.past-info .embedded_tasks {
+    position: relative;
+    border-width: 0 1px 1px 1px;
+    border-color: #dcdcdc;
+    border-style: solid;
+    padding: 4px 8px 20px 8px;
+    border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px
+}
+
+.past-info .post {
+    position: relative;
+    border-width: 0 1px 1px 1px;
+    border-color: #dcdcdc;
+    border-style: solid;
+    padding: 10px 20px 7px 21px;
+    font-size: 11px;
+    min-height: 40px
+}
+
+.past-info .page-content {
+    position: relative;
+    border-width: 0 1px 1px 1px;
+    border-color: #dcdcdc;
+    border-style: solid;
+    padding: 20px 20px 20px 21px;
+    font-size: 12px;
+    border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px
+}
+
+.past-info .post:hover {
+    background-color: #fdfdf3
+}
+
+.past-info .post.nohighlight {
+    background-color: #fff
+}
+
+.past-info .post .cont-list1 {
+    margin: 2px 0 2px 25px
+}
+
+.past-info .post.add {
+    padding-bottom: 16px
+}
+
+.past-info .post.add .icon {
+    top: 10px
+}
+
+.past-info .post.add .infoarea {
+    padding: 0 0 15px
+}
+
+.past-info .post.add2 .letter-content {
+    padding: 12px 10px 19px 0;
+    margin: 0 -10px 0 0
+}
+
+.past-info .post:last-child {
+    border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px
+}
+
+.past-info .post .icon {
+    position: absolute;
+    left: -14px;
+    top: 8px
+}
+
+.past-info .post .icon {
+    left: -16px;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    background-color: #f8f8f8;
+    border: solid 1px #d1d1d1
+}
+
+.item-label {
+    color: #fff;
+    height: 20px;
+    width: 90px;
+    position: absolute;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-top: 3px;
+    top: 10px;
+    right: -5px;
+    margin-right: 0;
+    border-radius: 3px 3px 0 3px;
+    box-shadow: 0 3px 3px -2px #ccc;
+    text-transform: capitalize
+}
+
+a.item-label, a.item-label:hover, a.item-label:visited, a.item-label:active {
+    text-decoration: none;
+    color: #fff
+}
+
+.item-label:after {
+    top: 20px;
+    right: 0;
+    border-top: 4px solid #585858;
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    content: "";
+    position: absolute
+}
+
+.past-info .post div.item-label.comment {
+    background-color: #76a7fa
+}
+
+.past-info .post div.item-label.itemlink {
+    background-color: #bc5679
+}
+
+.past-info .post div.item-label.contact {
+    background-color: #c3c
+}
+
+.past-info .post div.item-label.organization {
+    background-color: #c6c
+}
+
+.past-info .post div.item-label.organisation {
+    background-color: #c6c
+}
+
+.past-info .post div.item-label.opportunity {
+    background-color: #f05722
+}
+
+.past-info .post div.item-label.project {
+    background-color: #f7981d
+}
+
+.past-info .post div.item-label.googledoc {
+    background-color: #2459ce
+}
+
+.past-info .post div.item-label.file {
+    background-color: #11a9cc
+}
+
+.past-info .post div.item-label.googledrivefile {
+    background-color: #2f6eb4
+}
+
+.past-info .post div.item-label.dropboxfile {
+    background-color: #368ccb
+}
+
+.past-info .post div.item-label.onedrivefile {
+    background-color: #094ab1
+}
+
+.past-info .post div.item-label.pandadocfile {
+    background-color: #59b671
+}
+
+.past-info .post div.item-label.boxfile {
+    background-color: #0093ff
+}
+
+.past-info .post div.item-label.note {
+    background-color: #4285f4
+}
+
+.past-info .post div.item-label.evernote {
+    background-color: #13bb0c
+}
+
+.past-info .post div.item-label.email {
+    background-color: #15a0e8
+}
+
+.past-info .post div.item-label.email-opened {
+    background-color: #15a0e8
+}
+
+.past-info .post div.item-label.email-clicked {
+    background-color: #15a0e8
+}
+
+.past-info .post div.item-label.task {
+    background-color: #65b045
+}
+
+.past-info .post div.item-label.event {
+    background-color: #33b679
+}
+
+.past-info .post div.item-label.milestone {
+    background-color: #0f9058
+}
+
+.past-info .post div.item-label.dropbox {
+    background-color: #1081de
+}
+
+.past-info .post div.item-label.box {
+    background-color: #1081de
+}
+
+.past-info .post div.item-label.onedrive {
+    background-color: #094ab1
+}
+
+.past-info .post div.item-label.pandadoc {
+    background-color: #59b671
+}
+
+.past-info .post div.item-label.lead {
+    background-color: #39b702
+}
+
+.past-info .post div.item-label.phonecall {
+    background-color: #0791ff
+}
+
+.past-info .post div.item-label.progress {
+    background: #707987;
+    text-decoration: none
+}
+
+.past-info .post div.item-label.statussuspended {
+    background: #b68901;
+    text-decoration: none
+}
+
+.past-info .post div.item-label.statuswon {
+    background: #39b702;
+    text-decoration: none
+}
+
+.past-info .post div.item-label.statuslost {
+    background: #e20606;
+    text-decoration: none
+}
+
+.past-info .post div.item-label.statusopen {
+    background: #39b702;
+    text-decoration: none
+}
+
+.past-info .post div.item-label.statusabandoned {
+    background: #e20606;
+    text-decoration: none
+}
+
+.past-info .post .icon img {
+    margin-left: 6px;
+    margin-top: 6px
+}
+
+.past-info .post .icon .material-icons {
+    margin-left: 5px;
+    margin-top: 5px;
+    opacity: .7
+}
+
+.past-info .post .infoarea {
+    overflow: hidden;
+    padding: 0 0 7px
+}
+
+.past-info .post .infoarea .linked-item {
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 15px;
+    padding: 3px 4px 0 0;
+    opacity: .35
+}
+
+.past-info .post:hover .infoarea .linked-item {
+    opacity: .7
+}
+
+.past-info .post .infoarea .related-items {
+    color: gray;
+    font-size: 11px;
+    overflow: hidden;
+    font-style: italic;
+    padding-left: 8px;
+    text-overflow: ellipsis
+}
+
+.past-info .post .infoarea .related-items [class^="icon-"], [class*=" icon-"] {
+    opacity: .4;
+    vertical-align: text-bottom
+}
+
+.past-info .post .infoarea .related-items a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 8px
+}
+
+.past-info .post .time {
+    float: right;
+    margin: 25px 0 0 10px;
+    text-align: right;
+    color: #666;
+    line-height: 14px
+}
+
+.past-info .post time {
+    color: #262626
+}
+
+.past-info .post .attachemnt_title {
+    color: #262626;
+    display: block;
+    font-size: 12px;
+
+}
+
+.past-info .post .attachemnt_title span {
+    display: block;
+    font-weight: normal;
+    color: #666;
+    font-size: 12px;
+}
+
+.past-info .post p {
+    margin: 0
+}
+
+.past-info .email-content {
+    font-weight: normal;
+    color: #666
+}
+
+.past-info .letter-content {
+    text-indent: 17px;
+    display: block;
+    padding: 12px 0 0
+}
+
+.past-info .regards {
+    padding: 42px 0 7px
+}
+
+.past-info .regards .author {
+    display: block
+}
+
+.past-info .regards a {
+    text-decoration: none;
+    color: #666
+}
+
+.past-info .regards a:hover {
+    text-decoration: underline
+}
+
+.past-info .link {
+    color: #262626;
+    font-weight: bold;
+    text-decoration: none
+}
+
+.past-info .link:hover {
+    text-decoration: underline
+}
+
+.past-info .mail {
+    color: #666;
+    text-decoration: none
+}
+
+.past-info .mail:hover {
+    text-decoration: underline
+}
+
+.past-info .post-area:after, #header:after {
+    display: block;
+    clear: both;
+    content: ''
+}
+
+.trashcan {
+    vertical-align: baseline;
+    line-height: 5px;
+    margin-left: 3px
+}
+
+.billing-details {
+    margin-top: 10px
+}
+
+.follow {
+    background: url(../../../images/crm/follow-sprite.png) no-repeat top left;
+    background-position: 0 -69px;
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.follow:hover {
+    background: url(../../../images/crm/follow-sprite.png) no-repeat top left;
+    background-position: 0 0;
+}
+
+.following {
+    background-position: 0 -138px !important;
+}
+
+#listfollow, .listfollow {
+    background: url(../../../images/crm/follow-sprite.png) no-repeat top left;
+    background-position: 0 -69px;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -3px;
+}

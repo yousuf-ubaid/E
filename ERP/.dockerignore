@@ -1,0 +1,28 @@
+azure-pipelines.yml
+docker-compose-local.yaml
+Dockerfile.local
+Dockerfile
+deploy.env.example
+"Last Git Updated.txt"
+"SPUR - Documentation.pdf"
+.env
+application/config/s3.php
+application/config/env.php
+application/config/config.php
+application/config/database.php
+azure-pipelines-dev.yml
+azure-pipelines-dev-ray.yml
+contributing.md
+docker-compose.yaml
+license.txt
+contributing.md
+sessions
+azure-pipelines-ilooop_ray.yml
+.dockerignore
+.git
+.gitignore
+README.md
+readme.rst
+REEDME.md
+text.txt
+favicon_.ico

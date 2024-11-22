@@ -1,0 +1,87 @@
+<?php
+/**
+ * System messages translation for CodeIgniter(tm)
+ * Prefix dashboard_
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['dashboard_create_template_setup'] = 'Créer la configuration du modèle';
+$lang['dashboard_new_dashboard'] = 'Nouveau Tableau de bord';
+$lang['dashboard_template'] = 'Modèle';
+$lang['dashboard_template_design'] = 'Conception du modèle';
+$lang['dashboard_click_on_template_to_load_the_design'] = 'Cliquez sur le modèle pour charger la conception';
+$lang['dashboard_delete_dashboard'] = 'Supprimer le tableau de bord';
+$lang['dashboard_add_widget'] = 'Ajouter un widget';
+$lang['dashboard_remove'] = 'Supprimer';
+$lang['dashboard_fast_moving_items'] = 'Articles à rotation rapide';
+$lang['dashboard_item_code'] = 'Code de l&apos;article';
+$lang['dashboard_item_name'] = 'Nom de l&apos;article';
+$lang['dashboard_total_sales'] = 'Ventes totales';
+$lang['dashboard_qty_in_hand'] = 'Quantité en stock';
+$lang['dashboard_cashbank_position'] = 'Position de la caisse/banque';
+$lang['dashboard_bank_name'] = 'Nom de la banque';
+$lang['dashboard_book_balance'] = 'Solde du livre';
+$lang['dashboard_overall_performance'] = 'Performance globale';
+$lang['dashboard_total_revenue'] = 'Revenu total';
+$lang['dashboard_profit_and_loss'] = 'Profit et perte';
+$lang['dashboard_net_profit'] = 'Profit net';
+$lang['dashboard_income_statement'] = 'Compte de résultat';
+$lang['dashboard_overdue_payables'] = 'Comptes fournisseurs en retard';
+$lang['dashboard_overdue_receivables'] = 'Comptes clients en retard';
+$lang['dashboard_reporting'] = 'Rapport';
+$lang['dashboard_vendor_statement'] = 'Déclaration du fournisseur';
+$lang['dashboard_customer_statement'] = 'Déclaration du client';
+$lang['dashboard_performance_summary'] = 'Résumé de la performance';
+$lang['dashboard_post_dated_cheques_given'] = 'Chèques postdatés remis';
+$lang['dashboard_post_dated_cheques_received'] = 'Chèques postdatés reçus';
+$lang['dashboard_due_days'] = 'Jours dus';
+$lang['dashboard_party_name'] = 'Nom de la partie';
+$lang['dashboard_due_date'] = 'Date d&apos;échéance';
+$lang['dashboard_remainin'] = 'Restant';
+$lang['dashboard_revenue_detail_analysis'] = 'Revenu par catégorie d&apos;article';
+$lang['dashboard_new_members'] = 'Nouveaux membres';
+$lang['dashboard_shortcut_links'] = 'Liens de raccourci';
+$lang['dashboard_add_link'] = 'Ajouter un lien';
+$lang['dashboard_revenue_by_category'] = 'Revenu par code GL';
+$lang['dashboard_sales_log'] = 'Journal des ventes';
+$lang['dashboard_current_year'] = 'Année en cours';
+$lang['dashboard_last_year'] = 'Année dernière';
+$lang['dashboard_to_do_list'] = 'Liste de choses à faire';
+$lang['dashboard_history'] = 'Historique';
+$lang['dashboard_to_do'] = 'À faire';
+$lang['dashboard_priority'] = 'Priorité';
+$lang['dashboard_you_want_to_complete_this_record'] = 'Vous voulez compléter cet enregistrement !';
+$lang['dashboard_record_not_found'] = 'Enregistrement non trouvé';
+$lang['dashboard_external_links'] = 'Liens externes';
+$lang['dashboard_external_link_name'] = 'Nom du lien';
+$lang['dashboard_external_link'] = 'Lien';
+$lang['dashboard_external_payroll_cost'] = 'Coût de la paie';
+$lang['dashboard_head_count'] = 'Nombre d&apos;employés';
+$lang['dashboard_quotation'] = 'Devis';
+$lang['dashboard_sales_order'] = 'Commande de vente';
+$lang['dashboard_contract'] = 'Contrat';
+$lang['dashboard_quote_value'] = 'Valeur du devis';
+$lang['dashboard_invoiced_value'] = 'Valeur facturée';
+$lang['dashboard_balance'] = 'Solde';
+$lang['dashboard_order_value'] = 'Valeur de la commande';
+$lang['dashboard_contract_value'] = 'Valeur du contrat';
+$lang['dashboard_head_count_by_designation'] = 'Nombre d&apos;employés par désignation';
+$lang['dashboard_payroll_employees_only'] = 'Seulement les employés de la paie';
+$lang['dashboard_revenue_by_segment'] = 'Revenu par segment';
+$lang['dashboard_external_birthday_reminder'] = 'Rappel d&apos;anniversaire';
+$lang['dashboard_monthly_performance_report'] = 'MPR - Rapport de performance mensuel';
+$lang['dashboard_invoiced_delivered_value'] = 'Valeur facturée / livrée';
+
+$lang['dashboard_external_contract_reminder'] = 'Rappel de contrat';
+$lang['dashboard_company_updates'] = 'Mises à jour de l&apos;entreprise';
+$lang['dashboard_company_updates_add'] = 'Ajouter une mise à jour de l&apos;entreprise';
+$lang['dashboard_company_updates_edit'] = 'Modifier la mise à jour de l&apos;entreprise';
+$lang['dashboard_company_updates_add_title'] = 'Titre';
+$lang['dashboard_company_updates_add_description'] = 'Description';
+$lang['dashboard_company_updates_add_expiry'] = 'Date d&apos;expiration';
+$lang['dashboard_company_updates_add_attachment'] = 'Pièce jointe';
+$lang['dashboard_company_updates_title_is_required'] = 'Le titre est requis';
+$lang['dashboard_company_updates_description_is_required'] = 'La description est requise';
+$lang['dashboard_company_updates_expirydate_is_required'] = 'La date d&apos;expiration est requise';
+$lang['dashboard_company_updates_attachment_is_required'] = 'La pièce jointe est requise';
+$lang['dashboard_company_updates_not_available'] = 'Aucun enregistrement trouvé';

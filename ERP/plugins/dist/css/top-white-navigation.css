@@ -1,0 +1,31 @@
+.skin-blue .main-header .navbar {
+    background-color: #ffffff !important;
+}
+
+.skin-blue .main-header .logo {
+    background-color: #ffffff !important;
+}
+
+.main-header {
+    color: #0a0a0a !important;
+}
+
+.main-header a {
+    color: #0a0a0a !important;
+}
+
+.skin-blue .main-header .navbar .nav > li > a:hover {
+    background-color: #E7E7FF !important;
+}
+
+.main-header .navbar .nav>li>a:hover i {
+    color: #0a0a0a !important;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #ffffff;
+}
+
+.skin-blue .main-header .navbar .nav .open>a, .skin-blue .main-header .navbar .nav .open>a:focus, .skin-blue .main-header .navbar .nav .open>a:hover, .skin-blue .main-header .navbar .nav>.active>a, .skin-blue .main-header .navbar .nav>li>a:active, .skin-blue .main-header .navbar .nav>li>a:focus, .skin-blue .main-header .navbar .nav>li>a:hover {
+    background: #E7E7FF !important;
+}

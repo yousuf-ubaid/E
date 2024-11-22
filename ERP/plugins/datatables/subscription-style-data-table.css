@@ -1,0 +1,59 @@
+table.custom_data_table thead th,
+table.custom_data_table thead td {
+    padding: 5px 5px;
+}
+
+table.custom_data_table tfoot th,
+table.custom_data_table tfoot td {
+    padding: 10px 18px 6px 18px;
+}
+
+table.custom_data_table.no-footer {
+    border-bottom: 1px solid #f7fafb;
+}
+
+.custom_data_table thead tr {
+    background: none !important;
+    background: #f2f2f2; !important;
+}
+table.custom_data_table tbody td{
+    color: #4c4d4e;
+    font-size: 12px !important;
+    height: 38px;
+    vertical-align: middle;
+}
+table.custom_data_table thead th{
+    //border-bottom: 4px solid #88cc5d87 !important;
+    border-bottom: 4px solid #88cc5d !important;
+    color: #888888;
+}
+
+table.custom_data_table .odd{
+    background: #fafafb;
+}
+
+.custom_data_table_container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.custom_data_table_header{
+    background: #707379;
+    color: #fff;
+    padding: 10px 5px;
+    height: 50px;
+}
+
+.custom_data_table_search_box{
+    margin-left: 0px !important;
+    border-left: 0px;
+}
+
+.custom_data_table_search_box:focus{
+    border-color: #d2d6de;
+}
+
+.custom_data_table_paginate .paginate_button.active a{
+    background: #707379 !important;
+    border-color: #ddd;
+}

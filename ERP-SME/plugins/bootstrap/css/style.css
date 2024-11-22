@@ -1,0 +1,281 @@
+table {
+    width: 100% !important;
+    font-family: arial;
+    margin-bottom: 0;
+}
+
+.table {
+    width: 100% !important;
+    font-family: arial;
+    margin-bottom: 0;
+}
+
+tfoot {
+    /*border-top: 1px solid rgba(0, 0, 0, 0.3);*/
+    border-top: 1px double #000;
+    border-bottom: 1px double #000;
+    font-weight: bold !important;
+    font-size: 12px !important;
+}
+
+tbody td {
+    font-size: 11px !important;
+}
+
+thead th {
+    font-size: 12px !important;
+    text-align: center;
+}
+
+thead tr {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+    background: #dedede; /* Old browsers */
+}
+
+thead {
+    border-bottom: 1px double #000;
+}
+
+.total {
+    border-top: 1px double #FF0000 !important;
+    border-bottom: 3px double #FF0000 !important;
+    font-weight: bold;
+    font-size: 12px !important;
+}
+
+.reporttotal {
+    border-top: 1px double #D2D6DE !important;
+    border-bottom: 3px double #D2D6DE !important;
+    font-weight: bold;
+    font-size: 11px !important;
+}
+
+.reporttotalblack {
+    border-top: 1px double #000000 !important;
+    border-bottom: 3px double #000000 !important;
+    font-weight: bold;
+    font-size: 11px !important;
+    background-color: #DBDBDB;
+}
+
+.sub_total {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px double #000;
+    border-bottom: 3px double #000;
+    font-weight: bold !important;
+    font-size: 12px !important;
+}
+
+.form-control {
+    border-radius: 0px !important;
+}
+
+.tt-dropdown-menu {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    margin-top: 2px;
+    min-width: 100px;
+    padding: 1px 0;
+}
+
+.tt-suggestion {
+    border-bottom: 1px solid #cccccc;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 8px 20px;
+}
+
+.tt-suggestion:last-child {
+    border-bottom: 0 none;
+}
+
+.tt-suggestion > p {
+    cursor: pointer;
+    font-family: Open Sans;
+    font-size: 12px;
+    margin: 0;
+}
+
+.tt-suggestion:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.04);
+    color: #03739c;
+}
+
+.number, .m_number {
+    text-align: right;
+}
+
+.table-responsive {
+    padding: 0px 15px !important;
+}
+
+.datepicker {
+    z-index: 999999999 !important;
+}
+
+/*hr {
+    margin-bottom :5px !important;
+    margin-top :5px !important;
+}*/
+
+.treeview-menu li {
+    cursor: pointer;
+}
+
+.fa:hover {
+    cursor: pointer;
+}
+
+.glyphicon:hover {
+    cursor: pointer;
+}
+
+/**** Added by mubashir ***/
+
+.mainCategoryHead {
+   /* color: #b97f74;*/
+    font-weight: bold;
+}
+
+.mainCategoryHead2 {
+     color: #0d6aad;
+    font-weight: bold;
+}
+
+.subCategoryHead {
+   /* color: #00a65a;*/
+    font-weight: bold;
+}
+
+.subsubCategoryHead {
+    /* color: #00a65a;*/
+    font-weight: bold;
+}
+
+.endSubCategory{ /* Every each sub total ending point */
+    border-bottom: 1px solid #D2D6DE !important;
+}
+
+/*export excel pdf css*/
+.btn-excel {
+    background-color: #207345;
+    color: #ffffff;
+}
+
+.btn-pdf {
+    background-color: #E22919;
+    color: #ffffff;
+}
+
+.btn-excel:hover, .btn-excel:active, .btn-excel.hover {
+    background-color: #207345;
+    color: #ffffff;
+}
+.btn-pdf:hover, .btn-pdf:active, .btn-pdf.hover {
+    background-color: #E22919;
+    color: #ffffff;
+}
+/* End export excel pdf css*/
+
+/*report table related css*/
+.reportTableHeader {
+    color: #0d6aad;
+    background: #ededed;
+    border-top: 1px double #D2D6DE !important;
+    border-bottom: 3px double #D2D6DE !important;
+}
+
+.reportHeader {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.report-table-condensed>tbody>tr>td,
+.report-table-condensed>tbody>tr>th,
+.report-table-condensed>tfoot>tr>td,
+.report-table-condensed>tfoot>tr>th,
+.report-table-condensed>thead>tr>td,
+.report-table-condensed>thead>tr>th {
+    padding: 2px;
+}
+
+.borderSpace{
+    border-collapse: separate !important;
+    border-spacing: 3px 0 !important;
+}
+
+.hoverTable tbody tr:hover{
+    background-color: #000000;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.hoverTr:hover{
+    background-color: #000000;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.report-header tr th{
+    background-color: rgb(222, 222, 222);
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 2px solid rgb(183, 185, 189);
+    position: relative;
+    top: 0px;
+    padding: 0px !important;
+}
+
+.reportHeaderColor {
+    color: #000080;
+}
+
+.reportsubtotal {  /* Report Sub total*/
+    border-top: 1px solid #D2D6DE !important;
+    border-bottom: 1px solid #D2D6DE !important;
+    font-weight: bold;
+    font-size: 11px !important;
+}
+
+/*end of report table related css*/
+
+/*radio button css*/
+.skin-square .skin-section .list li {
+    padding-left: 42px;
+}
+
+.skin-section .list li {
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.icheckbox_square, .icheckbox_square-red, .icheckbox_square-green, .icheckbox_square-blue, .icheckbox_square-aero, .icheckbox_square-grey, .icheckbox_square-orange, .icheckbox_square-yellow, .icheckbox_square-pink, .icheckbox_square-purple, .iradio_square, .iradio_square-red, .iradio_square-green, .iradio_square-blue, .iradio_square-aero, .iradio_square-grey, .iradio_square-orange, .iradio_square-yellow, .iradio_square-pink, .iradio_square-purple {
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+
+.icheckbox_square_relative, .icheckbox_square_relative-red, .icheckbox_square_relative-green, .icheckbox_square_relative-blue, .icheckbox_square_relative-aero, .icheckbox_square_relative-grey, .icheckbox_square_relative-orange, .icheckbox_square_relative-yellow, .icheckbox_square_relative-pink, .icheckbox_square_relative-purple, .iradio_square_relative, .iradio_square_relative-red, .iradio_square_relative-green, .iradio_square_relative-blue, .iradio_square_relative-aero, .iradio_square_relative-grey, .iradio_square_relative-orange, .iradio_square_relative-yellow, .iradio_square_relative-pink, .iradio_square_relative-purple {
+    position: relative;
+    top: -1px;
+    left: 0;
+}
+/* end radio button css*/
+
+/**** End mubashir ***/
+
+.bgWhite {
+    background-color: #ffffff;
+}
+
+.bootbox-close-button.close{
+    margin-right: 0px !important;
+}
+
+.delete-icon, .refer-back-icon{
+    color: #d15b47;
+}
+
+.edit-icon{
+    color: #4682b4;
+}

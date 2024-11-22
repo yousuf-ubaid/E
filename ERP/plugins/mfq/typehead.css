@@ -1,0 +1,114 @@
+.search-no-results {
+    text-align: center;
+    background-color: #f6f6f6;
+    border: solid 1px #ddd;
+    margin-top: 10px;
+    padding: 1px;
+}
+
+.entity-detail .ralign, .property-table .ralign {
+    text-align: right;
+    color: gray;
+    padding: 3px 10px 4px 0;
+    width: 150px;
+    max-width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.title {
+    color: #aaa;
+    padding: 4px 10px 0 0;
+    font-size: 13px;
+}
+
+.tddata {
+    color: #333;
+    padding: 4px 10px 0 0;
+    font-size: 13px;
+}
+
+.nav-tabs > li > a {
+    font-size: 11px;
+    line-height: 30px;
+    height: 30px;
+    position: relative;
+    padding: 0 25px;
+    float: left;
+    display: block;
+    /*color: rgb(44, 83, 158);*/
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+    color: rgb(130, 130, 130);
+}
+
+.nav-tabs > li > a:hover {
+    background: rgb(230, 231, 234);
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+    position: relative;
+    padding: 0 25px;
+    float: left;
+    display: block;
+    /*color: rgb(44, 83, 158);*/
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px 3px 0 0;
+    border-color: transparent;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #c0392b;
+    cursor: default;
+    background-color: #fff;
+    font-weight: bold;
+    border-bottom: 3px solid #f15727;
+}
+
+.arrow-steps .step.current {
+    color: #fff !important;
+    background-color: #657e5f !important;
+}
+
+.autocomplete-suggestions {
+    border: 1px solid #999;
+    background: #FFF;
+    overflow: auto;
+    cursor: pointer;
+}
+
+.autocomplete-suggestion {
+    padding: 2px 5px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.autocomplete-selected {
+    background: #F0F0F0;
+}
+
+.autocomplete-suggestions strong {
+    font-weight: normal;
+    color: #3399FF;
+    cursor: pointer;
+}
+
+.autocomplete-group {
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.autocomplete-group strong {
+    display: block;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}

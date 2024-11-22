@@ -1,0 +1,208 @@
+#alphas .list-group-item{
+  padding: 2px 2px;
+  width: 32px;
+}
+
+div.alpha-tab-container {
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-top: none;
+  border-right: none;
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+
+div.alpha-tab-menu {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+div.alpha-tab-menu div.list-group {
+  margin-bottom: 2px;
+}
+
+div.alpha-tab-menu div.list-group > a {
+  margin-bottom: 2px;
+}
+
+div.alpha-tab-menu div.list-group > a .glyphicon,
+div.alpha-tab-menu div.list-group > a .fa {
+  color: #696CFF;
+}
+
+div.alpha-tab-menu div.list-group > a .glyphicon .badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 6px 9px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  //border-radius: 24px;
+  color: #555;
+  border: 2px solid #555;
+  background-color: rgba(119, 119, 119, 0);
+}
+
+
+div.alpha-tab-menu div.list-group > a.active,
+div.alpha-tab-menu div.list-group > a.active .glyphicon,
+div.alpha-tab-menu div.list-group > a.active .fa {
+  background-color: #605ca8;
+  color: #ffffff;
+}
+
+.skin-blue div.alpha-tab-menu div.list-group > a.active,
+.skin-blue-light div.alpha-tab-menu div.list-group > a.active,
+.skin-blue div.alpha-tab-menu div.list-group > a.active .glyphicon,
+.skin-blue-light div.alpha-tab-menu div.list-group > a.active .glyphicon{
+    background-color: #605ca8;
+}
+
+.skin-purple div.alpha-tab-menu div.list-group > a.active,
+.skin-purple-light div.alpha-tab-menu div.list-group > a.active,
+.skin-purple div.alpha-tab-menu div.list-group > a.active .glyphicon,
+.skin-purple-light div.alpha-tab-menu div.list-group > a.active .glyphicon{
+    background-color: #605ca8;
+}
+
+.skin-green div.alpha-tab-menu div.list-group > a.active,
+.skin-green-light div.alpha-tab-menu div.list-group > a.active,
+.skin-green div.alpha-tab-menu div.list-group > a.active .glyphicon,
+.skin-green-light div.alpha-tab-menu div.list-group > a.active .glyphicon{
+    background-color: #00a65a;
+}
+
+.skin-red div.alpha-tab-menu div.list-group > a.active,
+.skin-red-light div.alpha-tab-menu div.list-group > a.active,
+.skin-red div.alpha-tab-menu div.list-group > a.active .glyphicon,
+.skin-red-light div.alpha-tab-menu div.list-group > a.active .glyphicon{
+    background-color: #dd4b39;
+}
+
+
+
+div.alpha-tab-menu div.list-group > a.active .badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 6px 9px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  //border-radius: 24px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background-color: rgba(119, 119, 119, 0);
+}
+
+div.alpha-tab-menu div.list-group > a.active:before {
+  content: '';
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-right: 10px solid #605ca8;
+  width: auto !important;
+}
+
+.skin-blue div.alpha-tab-menu div.list-group > a.active:before,
+.skin-blue-light div.alpha-tab-menu div.list-group > a.active:before{
+    border-right: 10px solid #605ca8;
+}
+
+.skin-purple div.alpha-tab-menu div.list-group > a.active:before,
+.skin-purple-light div.alpha-tab-menu div.list-group > a.active:before{
+    border-right: 10px solid #605ca8;
+}
+
+.skin-green div.alpha-tab-menu div.list-group > a.active:before,
+.skin-green-light div.alpha-tab-menu div.list-group > a.active:before{
+    border-right: 10px solid #00a65a;
+}
+
+.skin-red div.alpha-tab-menu div.list-group > a.active:before,
+.skin-red-light div.alpha-tab-menu div.list-group > a.active:before{
+    border-right: 10px solid #dd4b39;
+}
+
+
+div.alpha-tab-content {
+  background-color: #ffffff;
+  padding-top: 2px;
+  direction: initial;
+}
+
+div.alpha-tab div.alpha-tab-content:not(.active) {
+  display: none;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+  border: 1px solid #ddd;
+}
+
+.alpha-tab {
+    margin-left: 14px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.col-lg-1.alpha-tab-menu, .col-md-1.alpha-tab-menu, .col-sm-1.alpha-tab-menu, .col-xs-1.alpha-tab-menu{
+  width: auto;
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.filter-slim-scroll-wrapper-employee-list{
+    position: unset !important;
+    overflow: unset !important;
+}
+
+/*.alpha-tab::-webkit-scrollbar {
+    width: 1em;
+}
+
+.alpha-tab::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.alpha-tab::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}*/
+
+
+/*.alpha-tab::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+.alpha-tab::-webkit-scrollbar
+{
+    width: 6px;
+    background-color: #555;
+}
+
+.alpha-tab::-webkit-scrollbar-thumb
+{
+    background-color: #555;
+    border: 2px solid #555555;
+}*/

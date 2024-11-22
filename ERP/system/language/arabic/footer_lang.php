@@ -1,0 +1,69 @@
+<?php
+/**
+ * System messages translation for CodeIgniter(tm)
+ *
+ * @prefix : footer_
+ */
+$lang['footer_document_code'] = 'رمز المستند';
+$lang['footer_document_date'] = 'تاريخ المستند';
+$lang['footer_confirmed_date'] = 'تاريخ التأكيد';
+$lang['footer_approved_date'] = 'تاريخ الموافقة';
+$lang['footer_document_not_approved_yet'] = 'لم تتم الموافقة على المستند بعد';
+$lang['footer_approval_user'] = 'موافقة المستخدم';
+$lang['footer_salary_declaration'] = 'إعلان المرتب';
+$lang['footer_item_master_sub'] = 'البيانات الأساسية للعنصر الفرعي ';
+$lang['footer_purchase_request'] = 'طلب الشراء';
+$lang['footer_approval_rejected_history'] = 'رفض الموافقة على التاريخ';
+$lang['footer_rejected_date'] = 'تاريخ الرفض';
+$lang['footer_referred_back_date'] = 'تاريخ الإحالة مرة أخرى';
+$lang['footer_change_password'] = 'تغيير كلمة السر';
+$lang['footer_current_password'] = 'كلمة السر الحالية';
+$lang['footer_new_password'] = 'كلمة السر الجديدة';
+$lang['footer_confirm_password'] = 'تأكيد كلمة المرور';
+$lang['footer_referred_back_history'] = 'تاريخ الإحالة مرة أخرى';
+$lang['footer_reporting_currency'] = 'عملة التقارير';
+$lang['footer_party_currency'] = 'عملة الحزب';
+$lang['footer_exchange_rates_are_not_set_for_the_selected_currency'] = 'لم يتم تعيين أسعار صرف العملة المحددة';
+$lang['footer_bank_transfer'] = ' التحويلات المصرفية';
+$lang['footer_goods_received_voucher'] = 'قسيمة السلع المستلمه ';
+$lang['footer_purchase_return'] = 'مردودات الشراء';
+$lang['footer_material_issue'] = 'مصدر المواد ';
+$lang['footer_stock_transfer'] = 'تحويل المخزون';
+$lang['footer_stock_adjustment'] = 'تعديل المخزون';
+$lang['footer_supplier_invoices'] = 'فواتير المورد';
+$lang['footer_debit_note'] = 'ملاحظات المدين';
+$lang['footer_payment_voucher'] = 'سند الصرف';
+$lang['footer_invoice'] = 'فاتورة';
+$lang['footer_credit_note'] = 'ملاحظة الإئتمان';
+$lang['footer_receipt_voucher'] = 'سند القبض';
+$lang['footer_receipt_matching'] = 'مطابقة الإيصال';
+$lang['footer_journal_entry'] = 'دفتر اليومية';
+$lang['footer_bank_reconciliation'] = 'التسويات المصرفية';
+$lang['footer_fixed_asset'] = 'الممتلكات';
+$lang['footer_asset_monthly_depreciation'] = 'الأستهلاك الشهري للمتلكات';
+$lang['footer_asset_ad_hoc_depreciation'] = 'الممتلكات المخصصة للإستهلاك';
+$lang['footer_asset_disposal'] = 'التخلص من الممتلكات';
+$lang['footer_contract'] = ' عقد';
+$lang['footer_quotation'] = 'عرض سعر';
+$lang['footer_sales_order'] = 'طلب مبيعات';
+$lang['footer_sales_commission'] = 'عمولة المبيعات';
+$lang['footer_fixed_element_declaration'] = 'بيان عن المادة الثابت';
+$lang['footer_sales_return'] = 'مبيعات مسترجعه';
+$lang['footer_monthly_allowance'] = 'علاوة شهرية';
+$lang['footer_salary_processing'] = 'تجهيز كشوف الرواتب';
+$lang['footer_material_receipt_note'] = 'ملاحظة إستلام المواد';
+$lang['footer_donor_commitment'] = 'التزام المانحين';
+$lang['footer_donor_collection'] = 'مجموع المانحين';
+$lang['footer_mortality'] = 'معدل الوفيات';
+$lang['footer_dispatch_note'] = ' إرسال مذكرة ';
+$lang['footer_good_receipt_note'] = 'ملاحظات السلع المستلمة ';
+$lang['footer_estimate'] = 'تقدير';
+$lang['footer_payment_reversal'] = 'دفع عكسي';
+$lang['footer_production_statement'] = 'بيان الإنتاج';
+$lang['footer_document_id_is_not_set'] = 'معاينة المستند غير متوفرة';
+$lang['footer_you_want_to_load_this_company'] = 'هل ترغب في تنزيل هذه الشركة';
+$lang['footer_deletion_failed'] = 'فشل الحذف';
+$lang['footer_current_password_is_required'] = '  كلمة المرور الحالية مطلوبة';
+$lang['footer_new_password_is_required'] = 'كلمة مرور الجديدة مطلوبة';
+$lang['footer_new_password_and_confirm_password_are_not_matching'] = 'لا يتطابق تأكيد كلمة المرور وكلمة المرور الجديدة';
+$lang['footer_confirm_password_are_required'] = 'تأكيد كلمة المرور مطلوب';

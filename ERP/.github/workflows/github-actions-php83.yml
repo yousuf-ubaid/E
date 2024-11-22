@@ -1,0 +1,92 @@
+name: Build and Deploy PHP 8.3
+
+on:
+  push:
+    branches:
+    - php83
+    tags:
+    - 'v[0-9]+.[0-9]+.[0-9]+'
+  workflow_dispatch:
+    inputs:
+      deploy-action:
+        description: "Environment to deploy to"
+        required: true
+        default: "deploy-stg"
+        type: choice
+        options:
+        - "deploy-stg"
+        - "deploy-prod"
+jobs:
+  stg:
+    if: github.event.inputs.deploy-action == 'deploy-stg' || github.event_name == 'push' || github.ref_name == 'php83'
+    runs-on: [self-hosted, qn-stg-erp-app]
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Build the Docker image
+      run: docker build --tag qn_erp_83:$GITHUB_REF_NAME-$GITHUB_SHA .
+
+    - name: Deploy
+      env:
+        BASE_URL: ${{ vars.BASE_URL_STG }}
+        DB_HOST: ${{ vars.DB_HOST_STG }}
+        DB_USERNAME: ${{ vars.DB_USERNAME_STG }}
+        DB_PASSWORD: ${{ secrets.DB_PASSWORD_STG }}
+        DB_NAME: ${{ vars.DB_NAME_STG }}
+        EMAIL_TOKEN: ${{ vars.EMAIL_TOKEN_STG }}
+        SMTP_HOST: ${{ vars.SMTP_HOST_STG }}
+        SMTP_USERNAME: ${{ vars.SMTP_USERNAME_STG }}
+        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD_STG }}
+        SMTP_PORT: ${{ vars.SMTP_PORT_STG }}
+        SMTP_FROM_ADDRESS: ${{ vars.SMTP_FROM_ADDRESS_STG }}
+        BUCKET_NAME: ${{ vars.BUCKET_NAME_STG }}
+        BUCKET_REGION: ${{ vars.BUCKET_REGION_STG }}
+        BUCKET_ACCESS_KEY: ${{ vars.BUCKET_ACCESS_KEY_STG }}
+        BUCKET_SECRET_KEY: ${{ secrets.BUCKET_SECRET_KEY_STG }}
+        VENDOR_PORTAL_API_BASE_URL: ${{ vars.VENDOR_PORTAL_API_BASE_URL_STG }}
+        VENDOR_PORTAL_API_USERNAME: ${{ vars.VENDOR_PORTAL_API_USERNAME_STG }}
+        VENDOR_PORTAL_API_PASSWORD: ${{ secrets.VENDOR_PORTAL_API_PASSWORD_STG }}
+      run: |
+        cd /opt/qn_erp_83
+        docker compose -f docker-compose.yml up -d
+        docker ps
+
+  prod:
+    if: startsWith(github.ref, 'refs/tags/v') || github.event.inputs.deploy-action == 'deploy-prod'
+    runs-on: [self-hosted, qn-prod-erp-app]
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Build the Docker image
+      run: docker build --tag qn_erp_83:$GITHUB_REF_NAME-$GITHUB_SHA .
+
+    - name: Deploy
+      env:
+        BASE_URL: ${{ vars.BASE_URL_PROD }}
+        DB_HOST: ${{ vars.DB_HOST_PROD }}
+        DB_USERNAME: ${{ vars.DB_USERNAME_PROD }}
+        DB_PASSWORD: ${{ secrets.DB_PASSWORD_PROD }}
+        DB_NAME: ${{ vars.DB_NAME_PROD }}
+        EMAIL_TOKEN: ${{ vars.EMAIL_TOKEN_PROD }}
+        SMTP_HOST: ${{ vars.SMTP_HOST_PROD }}
+        SMTP_USERNAME: ${{ vars.SMTP_USERNAME_PROD }}
+        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD_PROD }}
+        SMTP_PORT: ${{ vars.SMTP_PORT_PROD }}
+        SMTP_FROM_ADDRESS: ${{ vars.SMTP_FROM_ADDRESS_PROD }}
+        BUCKET_NAME: ${{ vars.BUCKET_NAME_PROD }}
+        BUCKET_REGION: ${{ vars.BUCKET_REGION_PROD }}
+        BUCKET_ACCESS_KEY: ${{ vars.BUCKET_ACCESS_KEY_PROD }}
+        BUCKET_SECRET_KEY: ${{ secrets.BUCKET_SECRET_KEY_PROD }}
+        VENDOR_PORTAL_API_BASE_URL: ${{ vars.VENDOR_PORTAL_API_BASE_URL_PROD }}
+        VENDOR_PORTAL_API_USERNAME: ${{ vars.VENDOR_PORTAL_API_USERNAME_PROD }}
+        VENDOR_PORTAL_API_PASSWORD: ${{ secrets.VENDOR_PORTAL_API_PASSWORD_PROD }}
+      run: |
+        cd /opt/qn_erp_83
+        docker compose -f docker-compose.yml up -d
+        docker ps
+
+

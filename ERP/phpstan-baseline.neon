@@ -1,0 +1,36 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Access to property \\$Navigation_model on an unknown class CI_Controller\\.$#"
+			count: 3
+			path: application/src/services/NavigationService.php
+
+		-
+			message: "#^Access to property \\$load on an unknown class CI_Controller\\.$#"
+			count: 1
+			path: application/src/services/NavigationService.php
+
+		-
+			message: "#^Method App\\\\Src\\\\Services\\\\NavigationService\\:\\:getNavigationById\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: application/src/services/NavigationService.php
+
+		-
+			message: "#^Method App\\\\Src\\\\Services\\\\NavigationService\\:\\:getNavigationHeader\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: application/src/services/NavigationService.php
+
+		-
+			message: "#^Method App\\\\Src\\\\Services\\\\NavigationService\\:\\:getNavigationHeaderLevelOne\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: application/src/services/NavigationService.php
+
+		-
+			message: "#^Function get_instance not found\\.$#"
+			count: 1
+			path: application/src/services/Service.php
+
+		-
+			message: "#^Property App\\\\Src\\\\Services\\\\Service\\:\\:\\$ci has unknown class CI_Controller as its type\\.$#"
+			count: 2
+			path: application/src/services/Service.php

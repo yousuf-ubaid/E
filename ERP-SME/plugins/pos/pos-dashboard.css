@@ -1,0 +1,8 @@
+.boxHeaderCustom{
+    height: 29px;
+    font-size: 16px;
+    padding: 3px 9px;
+    font-weight: 700;
+    background-color: rgba(222, 218, 218, 0.16);
+    color: #69697b;
+}

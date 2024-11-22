@@ -1,0 +1,6 @@
+{
+    "require": {
+        "glavweb/php-google-cloud-print": "^0.1.1",
+		"google/apiclient": "1.0.*@beta"
+    }
+}
